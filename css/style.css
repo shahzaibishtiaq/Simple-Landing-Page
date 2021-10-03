@@ -67,6 +67,33 @@
     background: #f66c92;
 }
 
+/*=============== sideNav ================*/
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    background: #f67c92;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    transition: 0.5s;
+}
+#sideNav ul li{
+    list-style: none;
+    margin: 50px 30px;
+}
+#sideNav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    top: 35px;
+    right: 65px;
+    cursor: pointer;
+}
+
 
 
 /* =============== Media Queries ================ */
