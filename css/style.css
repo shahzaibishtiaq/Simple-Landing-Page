@@ -377,4 +377,48 @@ width: 100px;
     width: 14px!important;
     margin: 15px auto!important;
     }
+    #about .about-col-left,.about-col-right{
+        flex-basis: 100%!important;
+    }
+        .about-text{
+            margin: 50px 50px 0!important;
+        }
+        h2{
+            font-size: 18px!important;
+        }
+        #features .features-row .features-col{
+            flex-basis: 100%!important;
+            margin-bottom: 20px!important;
+        }
+        #courses .container .courses-col-left,.courses-col-right{
+        flex-basis: 100%!important;
+    }
+        #courses .container .courses-col-right{
+        
+            margin: 70px 0 0;
+    }
+        #offer .offer-col-left,.offer-col-right{
+        flex-basis: 100%!important;
+    }
+        #offer .offer-col-right .offer-text{
+        margin: 30px 50px 0 50px!important;
+    }
+        #offer .offer-col-right .offer-text p{
+        color: #777!important;
+    }
+        #contact .contact-row .contact-col-left,.contact-col-right{
+        flex-basis: 100%!important;
+    }#contact .contact-row .contact-col-right{
+        margin-top: 50px!important;
+    }
+        #footer .footer-row .footer-col-left,.footer-col-right{
+        flex-basis: 100%!important;
+     }
+        #footer .footer-row .footer-col-left .footer-links .link-title{
+         flex-basis: 50%!important;
+            margin-bottom: 30px!important;
+    }
+       #footer .footer-row .footer-col-right .footer-info .footer-copyright{
+    flex-basis: 50%!important;
+    }
 }
