@@ -94,6 +94,47 @@
     cursor: pointer;
 }
 
+/*=============== about ================*/
+
+
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0;
+}
+#about .about-col-left{
+    flex-basis: 50%;
+}
+
+#about .about-col-left img{
+    width: 100%;
+}
+
+#about .about-col-right{
+    flex-basis: 50%;
+    text-align: right;
+}
+#about .about-col-right .about-text{
+    margin-right: 100px;
+    max-width: 500px;
+    display: inline-block;
+}
+#about .about-col-right .about-text p{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+#about .about-col-right .about-text h2{
+    margin-top: 20px;
+    font-size: 28px;
+    font-style: italic;
+}
+#about .about-col-right .about-text h3{
+    font-size: 20px;
+    color: #777;
+    font-style: italic;
+}
 
 
 /* =============== Media Queries ================ */
