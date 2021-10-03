@@ -200,6 +200,30 @@
 #courses .container .courses-col-right{
     flex-basis: 50%;
 }
+/* =============== offer ================ */
+
+#offer
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#offer .offer-col-left{
+    flex-basis: 50%;
+}
+#offer .offer-col-left img{
+    width: 100%;
+}
+#offer .offer-col-right{
+    flex-basis: 50%;
+    text-align: right;
+}
+#offer .offer-col-right .offer-text{
+    max-width: 350px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 100px;
+}
 
 
 
